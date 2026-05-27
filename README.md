@@ -97,10 +97,8 @@ Com tema escuro para dar aparência de jogo.
 
 ## 📷 Protótipo
 
-Adicione aqui uma imagem ou gif do jogo:
-
 ```md
-![Protótipo](images/prototipo.png)
+(images/prototipo.png)
 ```
 
 ---
