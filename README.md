@@ -95,10 +95,10 @@ Com tema escuro para dar aparência de jogo.
 
 ---
 
-## 📷 Protótipo
+## 📷 Link do Protótipo 
 
 ```md
-(images/prototipo.png)
+https://www.figma.com/make/wARMt0v74TZ50nXWcs9gDU/Prot%C3%B3tipo-M%C3%A3o-de-Spock?t=tDZsBhJZeMT27m9v-1
 ```
 
 ---
