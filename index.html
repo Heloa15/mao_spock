@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mão de Spock</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonte bonita -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="topo">
+        <h1>🖐️ Mão de Spock 🦎</h1>
+
+        <div class="placar">
+            <div class="score-box">Você: <span id="pontosJogador">0</span></div>
+            <div class="score-box">Computador: <span id="pontosPc">0</span></div>
+        </div>
+
+        <!-- Botão regras -->
+        <button id="btnRegras" class="btn-regras">
+            📜 Ver Regras
+        </button>
+    </header>
+
+    <!-- Janela das regras -->
+    <div id="modalRegras" class="modal">
+        <div class="modal-conteudo">
+            <span id="fecharModal" class="fechar">&times;</span>
+            <img src="images/regras.png" alt="Regras do jogo">
+        </div>
+    </div>
+
+    <div id="resultado" class="resultado"></div>
+
+    <!-- Campo principal -->
+    <main class="mesa">
+
+        <div class="campo">
+            <h2>Você</h2>
+            <div id="jogadaJogador" class="carta-jogada"></div>
+        </div>
+
+        <div class="vs">VS</div>
+
+        <div class="campo">
+            <h2>Computador</h2>
+            <div id="jogadaPc" class="carta-jogada"></div>
+        </div>
+
+    </main>
+
+    <!-- Cartas -->
+    <section class="mao">
+
+        <div class="carta pink" onclick="jogar('tesoura')">
+            <img src="images/paz1.png">
+        </div>
+
+        <div class="carta verde" onclick="jogar('lagarto')">
+            <img src="images/lagarto.png">
+        </div>
+
+        <div class="carta azul" onclick="jogar('pedra')">
+            <img src="images/pedra.png">
+        </div>
+
+        <div class="carta roxa" onclick="jogar('spock')">
+            <img src="images/spock.png">
+        </div>
+
+        <div class="carta amarelo" onclick="jogar('papel')">
+            <img src="images/papel.png">
+        </div>
+
+    </section>
+
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
